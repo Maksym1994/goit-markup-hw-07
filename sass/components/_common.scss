@@ -1,0 +1,67 @@
+body {
+  font-family: $sans-serif;
+  background-color: $secondaryColor;
+  letter-spacing: 0.03em;
+  color: $primaryColor;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+
+  &__product {
+    padding-bottom: 94px;
+  }
+
+  &__footer {
+    display: inline-flex;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &__no-padding {
+    padding-top: 0;
+  }
+
+  &__team {
+    background-color: $backgroundColor;
+  }
+}
+
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: $primaryColor;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.visually-hiddens {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

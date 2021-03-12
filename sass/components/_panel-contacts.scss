@@ -1,0 +1,36 @@
+.panel-contacts {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  list-style: none;
+  align-items: center;
+}
+
+.panel-contacts__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.panel-contacts__link {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $textColor;
+  text-decoration: none;
+  @include transition(color);
+
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
+}
+
+.panel-contacts__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}

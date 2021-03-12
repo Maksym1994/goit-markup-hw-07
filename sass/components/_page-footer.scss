@@ -1,0 +1,48 @@
+.page-footer {
+  background-color: $heroColor;
+  display: flex;
+}
+
+.page-footer__text {
+  color: $secondaryColor;
+}
+
+.page-footer__label {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  margin-top: 9px;
+  margin-bottom: 0;
+  padding-left: 0;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+
+  &__mail {
+    margin-top: 0;
+    margin-bottom: 9px;
+  }
+
+  &__tel {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.subscribe {
+  margin-left: 70px;
+
+  &__text {
+    font-family: $sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $secondaryColor;
+  }
+}

@@ -1,0 +1,36 @@
+.form-footer {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 93px;
+}
+
+.form-footer__field {
+  display: block;
+}
+
+.form-footer__label {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  font-family: $sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $secondaryColor;
+}
+
+.form-footer__input {
+  display: block;
+  width: 358px;
+  padding: 14px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow($shadowColor);
+  font-family: $sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: $heroColor;
+}

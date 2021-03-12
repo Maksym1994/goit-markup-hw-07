@@ -1,0 +1,30 @@
+.partners {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  color: $iconColor;
+  border: 1px solid $iconColor;
+  border-radius: 4px;
+  transition: color 250ms $timingFunction, border 250ms $timingFunction;
+
+  &:hover,
+  &:focus {
+    color: $accentColor;
+    border: 1px solid $accentColor;
+  }
+}
+
+.partners__icon {
+  fill: currentColor;
+}

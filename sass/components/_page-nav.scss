@@ -1,0 +1,15 @@
+.page-nav {
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  margin-top: 77px;
+  margin-bottom: 51px;
+
+  &__item:not(:last-child) {
+    margin-right: 8px;
+  }
+}

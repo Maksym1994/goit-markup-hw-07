@@ -1,0 +1,29 @@
+.logo {
+  font-family: $serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.14;
+  color: $primaryColor;
+  text-decoration: none;
+  @include transition(color);
+
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
+}
+
+.logo__text {
+  color: $accentColor;
+}
+
+.logo--footer {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: $secondaryColor;
+
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
+}
